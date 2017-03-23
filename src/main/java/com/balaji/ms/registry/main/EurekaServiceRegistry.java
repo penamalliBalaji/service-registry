@@ -7,11 +7,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 @EnableEurekaServer
 public class EurekaServiceRegistry {
-
+	
 	public static void main(String[] args) {
 		
 		System.setProperty("spring.config.name", "service-registry");
-		System.out.println("Balaji Penamalli-Created a new Eureka Server.");
+		System.out.println("Balaji Penamalli-Created.");
 		SpringApplication.run(EurekaServiceRegistry.class, args);
 
 	}
